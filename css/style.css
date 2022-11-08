@@ -1,0 +1,157 @@
+body {
+    background-color: darkgray;
+    margin: 0 auto;
+
+}
+
+.h2 {
+    text-align: center;
+    font-style: initial;
+    margin-top: auto;
+    
+   
+    
+}
+
+.title {
+    font-family: 'Im_Hyemin-Bold';
+    font-size: 50px;
+    text-align: center;
+}
+
+.rottoNum_wrap {
+    width: auto;
+    height: auto;
+    position: absolute;
+    display: inline-block;
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+/* .ball {
+    background-color: yellow;
+    width: 80px;
+    height:80px;
+    margin: 200px 10px 200px auto;
+    position: relative;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: center;
+    text-align: center;
+    line-height: auto;
+    font-size: 3rem; */
+/* } */
+    
+
+.ball span {
+    display: block;
+    font-size: 50px;
+    text-align: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    line-height: auto;
+    margin: 0 auto;
+    
+}
+
+
+
+.btn_wrap {
+    width: 100px;
+    margin-left: 430px;
+    margin-right: 430px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+
+.b1 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ball1 {
+    background-color: yellow;
+    width: 80px;
+    height:80px;
+    margin: 200px 10px 200px auto;
+    position: relative;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: center;
+    text-align: center;
+    line-height: auto;
+    font-size: 3rem; 
+}
+
+.ball2 {
+    background-color: deepskyblue;
+    width: 80px;
+    height:80px;
+    margin: 200px 10px 200px auto;
+    position: relative;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: center;
+    text-align: center;
+    line-height: auto;
+    font-size: 3rem; 
+}
+
+.ball3 {
+    background-color: rgb(28, 248, 54);
+    width: 80px;
+    height:80px;
+    margin: 200px 10px 200px auto;
+    position: relative;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: center;
+    text-align: center;
+    line-height: auto;
+    font-size: 3rem; 
+}
+
+.ball4 {
+    background-color: rgb(250, 94, 21);
+    width: 80px;
+    height:80px;
+    margin: 200px 10px 200px auto;
+    position: relative;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: center;
+    text-align: center;
+    line-height: auto;
+    font-size: 3rem; 
+}
+
+.ball5 {
+    background-color: rgb(244, 35, 35);
+    width: 80px;
+    height:80px;
+    margin: 200px 10px 200px auto;
+    position: relative;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: center;
+    text-align: center;
+    line-height: auto;
+    font-size: 3rem; 
+}
+
+.ball6 {
+    background-color: rgb(200, 58, 236);
+    width: 80px;
+    height:80px;
+    margin: 200px 10px 200px auto;
+    position: relative;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: center;
+    text-align: center;
+    line-height: auto;
+    font-size: 3rem; 
+}

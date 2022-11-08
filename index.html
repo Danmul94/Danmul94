@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로또 추첨기 </title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    
+
+</head>
+<body>
+    <header>
+        <h2 class="title">로또 번호 추첨기</h2>
+
+    </header>
+
+    <div class="b1">
+
+    <div class="content">
+        <div class="rottoNum_wrap"></div>
+        
+        <div class="ball1" id="num1">
+            <span>?
+
+            </span>
+
+        </div><div class="ball2" id="num2">
+            <span>?
+                
+            </span>
+
+        </div><div class="ball3" id="num3">
+            <span>?
+                
+            </span>
+
+        </div><div class="ball4" id="num4">
+            <span>?
+                
+            </span>
+
+        </div><div class="ball5" id="num5">
+            <span>?
+                
+            </span>
+
+        </div><div class="ball6" id="num6">
+            <span>?
+                
+            </span>
+
+        </div>
+    </div>
+    <div class="btn_wrap">
+        <input class="btn" type="button" value="추첨하기" onclick="getNum()">
+
+    </div>
+    
+</div>
+
+    <script>
+        function getNum() {
+    let ball = document.getElementsByClassName("ball");
+    //class이름이 ball인 요소 가져오기
+    //추첨 후에, 또 추첨하기 버튼을 누르면 이전에 들어간 번호가 남아있어
+    //초기화 해주기 위한 부분
+    for (let i = 0; i < ball.length; i++) {
+        ball[i].innerHTML = '<span>?</span>';
+        //for문 돌리며 ball 안의 텍스트 ?로 넣기
+    }
+    let rottoNum = [];
+    //추첨한 로또 번호를 담을 배열
+    for (let i = 0; i < 6; i++) {
+        rottoNum[i] = Math.floor(Math.random() * 45) + 1;
+        //랜덤함수를 통해 랜덤으로 번호생성
+        //추첨된 번호가 중복됐을 시, 재추첨하기
+        for (let j = 0; j < i; j++) {
+            if (rottoNum[i] == rottoNum[j]) {
+                i--;
+                break;
+            }
+        }
+    }
+    rottoNum.sort(function (a, b) {
+        return a - b;
+    });
+    for (let i = 0; i < rottoNum.length; i++) {
+        let ball = document.getElementById("num" + (i + 1));
+        // setTimeout()함수를 이용하여, 1초마다 실행되도록 함
+        setTimeout(function () {
+            ball.innerHTML = `<span>${rottoNum[i]}
+  </span`;
+        }
+            , i * 1500);
+    }
+}
+    </script>
+  
+                
+            
+</body>
+
+</html>
