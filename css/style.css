@@ -1,7 +1,5 @@
-body {
-    background-color: darkgray;
-    margin: 0 auto;
-
+body{
+    background-color: gray;
 }
 
 .h2 {
@@ -32,22 +30,9 @@ body {
 
 .content{
     position: absolute;
-    left: 500px;
+    left: 550px;
 }
 
-/* .ball {
-    background-color: yellow;
-    width: 80px;
-    height:80px;
-    margin: 200px 10px 200px auto;
-    position: relative;
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: center;
-    text-align: center;
-    line-height: auto;
-    font-size: 3rem; */
-/* } */
     
 
 .ball span {
@@ -64,11 +49,10 @@ body {
 
 
 .btn_wrap {
-    width: 100px;
-    margin-left: 430px;
-    margin-right: 430px;
-    text-align: center;
-    margin: 0 auto;
+    position: absolute;
+    left: -220px;
+    margin-top: 200px;
+    
     
 }
 
@@ -163,3 +147,4 @@ body {
     margin-left: 100px;
     margin-top: 0px;
 }
+
