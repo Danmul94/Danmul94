@@ -1,6 +1,8 @@
 body {
     background-color: darkgray;
     margin: 0 auto;
+    position: sticky;
+    top:0px;
 
 }
 
@@ -31,8 +33,10 @@ body {
 }
 
 .content{
+    position: sticky;
+    top:0px;
     position: absolute;
-    left: 500px;
+    left: 550px;
 }
 
 /* .ball {
@@ -65,10 +69,12 @@ body {
 
 .btn_wrap {
     width: 100px;
-    margin-left: 700px;
+    left: 700px;
     margin-right: 430px;
     text-align: center;
     margin-top: 400px;
+    position: absolute;
+    position: sticky;
     
 }
 
@@ -77,8 +83,8 @@ body {
 
 .ball1 {
     background-color: yellow;
-    width: 80px;
-    height:80px;
+    width: 60px;
+    height:60px;
     margin: 200px 10px 200px auto;
     position: relative;
     border-radius: 50%;
@@ -87,12 +93,14 @@ body {
     text-align: center;
     line-height: auto;
     font-size: 3rem; 
+    position: sticky;
+    
 }
 
 .ball2 {
     background-color: deepskyblue;
-    width: 80px;
-    height:80px;
+    width: 60px;
+    height:60px;
     margin: 200px 10px 200px auto;
     position: relative;
     border-radius: 50%;
@@ -101,12 +109,14 @@ body {
     text-align: center;
     line-height: auto;
     font-size: 3rem; 
+    position: sticky;
+   
 }
 
 .ball3 {
     background-color: rgb(28, 248, 54);
-    width: 80px;
-    height:80px;
+    width: 60px;
+    height:60px;
     margin: 200px 10px 200px auto;
     position: relative;
     border-radius: 50%;
@@ -115,12 +125,14 @@ body {
     text-align: center;
     line-height: auto;
     font-size: 3rem; 
+    position: sticky;
+    
 }
 
 .ball4 {
     background-color: rgb(250, 94, 21);
-    width: 80px;
-    height:80px;
+    width: 60px;
+    height:60px;
     margin: 200px 10px 200px auto;
     position: relative;
     border-radius: 50%;
@@ -129,12 +141,14 @@ body {
     text-align: center;
     line-height: auto;
     font-size: 3rem; 
+    position: sticky;
+    
 }
 
 .ball5 {
     background-color: rgb(244, 35, 35);
-    width: 80px;
-    height:80px;
+    width: 60px;
+    height:60px;
     margin: 200px 10px 200px auto;
     position: relative;
     border-radius: 50%;
@@ -143,12 +157,14 @@ body {
     text-align: center;
     line-height: auto;
     font-size: 3rem; 
+    position: sticky;
+    
 }
 
 .ball6 {
     background-color: rgb(200, 58, 236);
-    width: 80px;
-    height:80px;
+    width: 60px;
+    height:60px;
     margin: 200px 10px 200px auto;
     position: relative;
     border-radius: 50%;
@@ -157,6 +173,8 @@ body {
     text-align: center;
     line-height: auto;
     font-size: 3rem; 
+    position: sticky;
+    
 }
 
 .admob{
