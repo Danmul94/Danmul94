@@ -1,24 +1,20 @@
 body {
-    background-color: darkgray;
-    margin: 0 auto;
+    width: auto;
+    height: auto;
     position: sticky;
-    top:0px;
-
-}
-
-.h2 {
-    text-align: center;
-    font-style: initial;
-    margin-top: auto;
-    
-   
-    
+    background-color: darkgray;
+    font-family: 'Jua', sans-serif;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    color: #35465d;
 }
 
 .title {
+    width: auto;
     font-family: 'Im_Hyemin-Bold';
-    font-size: 50px;
+    font-size: 28px;
     text-align: center;
+    margin: 0;
 }
 
 .rottoNum_wrap {
@@ -33,33 +29,18 @@ body {
 }
 
 .content{
+    width: 500%;
+    height: auto;
     position: sticky;
-    top:0px;
-    position: absolute;
-    left: 550px;
+    margin-left: 28%;
+    
 }
-
-/* .ball {
-    background-color: yellow;
-    width: 80px;
-    height:80px;
-    margin: 200px 10px 200px auto;
-    position: relative;
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: center;
-    text-align: center;
-    line-height: auto;
-    font-size: 3rem; */
-/* } */
     
 
 .ball span {
     display: block;
     font-size: 50px;
     text-align: auto;
-    margin-top: 20px;
-    margin-left: auto;
     line-height: auto;
     margin: 0 auto;
     
@@ -68,113 +49,95 @@ body {
 
 
 .btn_wrap {
-    width: 100px;
+    width: auto;
+    height: auto;
     left: 700px;
-    margin-right: 430px;
+    margin-right: 150px;
     text-align: center;
-    margin-top: 400px;
-    position: absolute;
+    margin-top: 50px;
     position: sticky;
+    
+  
     
 }
 
 
 
-
 .ball1 {
     background-color: yellow;
-    width: 60px;
-    height:60px;
-    margin: 200px 10px 200px auto;
-    position: relative;
+    width: 40px;
+    height:40px;
+    margin: 100px 10px 100px auto;
     border-radius: 50%;
     display: inline-block;
-    margin-left: center;
     text-align: center;
     line-height: auto;
-    font-size: 3rem; 
-    position: sticky;
-    top: 10px;
+    font-size: 2rem; 
+    
 }
 
 .ball2 {
     background-color: deepskyblue;
-    width: 60px;
-    height:60px;
+    width: 40px;
+    height:40px;
     margin: 200px 10px 200px auto;
-    position: relative;
     border-radius: 50%;
     display: inline-block;
-    margin-left: center;
     text-align: center;
     line-height: auto;
-    font-size: 3rem; 
-    position: sticky;
-    top: 10px;
+    font-size: 2rem; 
+   
 }
 
 .ball3 {
     background-color: rgb(28, 248, 54);
-    width: 60px;
-    height:60px;
+    width: 40px;
+    height:40px;
     margin: 200px 10px 200px auto;
-    position: relative;
     border-radius: 50%;
     display: inline-block;
-    margin-left: center;
     text-align: center;
     line-height: auto;
-    font-size: 3rem; 
-    position: sticky;
-    top: 10px;
+    font-size: 2rem;  
+    
 }
 
 .ball4 {
     background-color: rgb(250, 94, 21);
-    width: 60px;
-    height:60px;
+    width: 40px;
+    height:40px;
     margin: 200px 10px 200px auto;
-    position: relative;
     border-radius: 50%;
     display: inline-block;
-    margin-left: center;
     text-align: center;
     line-height: auto;
-    font-size: 3rem; 
-    position: sticky;
-    top: 10px;
+    font-size: 2rem; 
 }
 
 .ball5 {
     background-color: rgb(244, 35, 35);
-    width: 60px;
-    height:60px;
-    margin: 200px 10px 200px auto;
-    position: relative;
+    width: 40px;
+    height:40px;
+    margin: 100px 10px 100px auto;
     border-radius: 50%;
     display: inline-block;
-    margin-left: center;
     text-align: center;
     line-height: auto;
-    font-size: 3rem; 
-    position: sticky;
-    top: 10px;
+    font-size: 2rem; 
 }
 
 .ball6 {
     background-color: rgb(200, 58, 236);
-    width: 60px;
-    height:60px;
-    margin: 200px 10px 200px auto;
-    position: relative;
+    width: 40px;
+    height:40px;
+    margin: 100px 10px 100px auto;
     border-radius: 50%;
     display: inline-block;
-    margin-left: center;
     text-align: center;
     line-height: auto;
-    font-size: 3rem; 
-    position: sticky;
-    top: 10px;
+    font-size: 2rem; 
+    
+    
 }
 
 .admob{
