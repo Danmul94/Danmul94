@@ -23,8 +23,9 @@ body {
 }
 
 .content{
-    height: auto;
-    width: auto;
+    position: absolute;
+    height: 100%;
+    margin: 200px;
 }
     
 
