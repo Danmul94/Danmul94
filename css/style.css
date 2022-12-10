@@ -1,7 +1,7 @@
 body {
-    width: auto;
-    height: auto;
-    position: sticky;
+    height: 100%;
+    width: 100%;
+    position: absolute;
     background-color: darkgray;
     font-family: 'Jua', sans-serif;
     box-sizing: border-box;
@@ -9,17 +9,12 @@ body {
 }
 
 .title {
-    width: auto;
     font-family: 'Im_Hyemin-Bold';
     font-size: 28px;
     text-align: center;
-    margin: 0;
 }
 
 .rottoNum_wrap {
-    width: auto;
-    height: auto;
-    position: absolute;
     left: 500px;
     display: inline-block;
     font-size: 50px;
@@ -28,11 +23,8 @@ body {
 }
 
 .content{
-    width: 500%;
     height: auto;
-    position: sticky;
-    margin-left: 28%;
-    
+    width: auto;
 }
     
 
@@ -54,10 +46,7 @@ body {
     margin-right: 150px;
     text-align: center;
     margin-top: 50px;
-    position: sticky;
-    
-  
-    
+       
 }
 
 
@@ -133,7 +122,6 @@ body {
     border-radius: 50%;
     display: inline-block;
     text-align: center;
-    line-height: auto;
     font-size: 2rem; 
     
     
@@ -142,4 +130,10 @@ body {
 .admob{
     margin-left: 100px;
     margin-top: 0px;
+}
+
+.all-banner{
+    position: sticky;
+    width: auto;
+    height: auto;
 }
